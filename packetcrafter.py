@@ -19,7 +19,7 @@ tcpdata = {
 	'dst': READ_REGISTER_ACK[IP].dst,
 	'sport': READ_REGISTER_ACK[TCP].sport,
 	'dport': READ_REGISTER_ACK[TCP].dport,
-	'seq': READ_REGISTER_ACK[TCP].seq + 21, #these numbers aree subject to change, based off the offset within the communication with a known length of
+	'seq': READ_REGISTER_ACK[TCP].seq + 21, #these numbers are subject to change, based off the offset within the communication with a known length of
 	'ack': READ_REGISTER_ACK[TCP].ack + 12,	#the previous packet sent within the TCP stream
 	'wnd': READ_REGISTER_ACK[TCP].window
 	}
